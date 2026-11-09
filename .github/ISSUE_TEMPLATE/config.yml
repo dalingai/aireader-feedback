@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest a feature
+    url: https://github.com/dalingai/aireader-feedback/discussions/categories/ideas
+    about: Share an idea, or 👍 the ones you'd use. Popular ideas rise to the top.
+  - name: Ask a question or share a thought
+    url: https://github.com/dalingai/aireader-feedback/discussions
+    about: Q&A and general conversation about aireader.
+  - name: Contact us privately
+    url: https://www.dalingai.com/en/support
+    about: For anything you'd rather not post in public, or if you don't have a GitHub account.

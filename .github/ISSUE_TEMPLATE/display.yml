@@ -1,0 +1,62 @@
+name: Paper displays wrong
+description: A figure, formula, table or section looks wrong or is missing in the reformatted view.
+title: "[Display] "
+labels: ["display"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the converter get better. The arXiv ID and a screenshot are usually all we need.
+        **This is public:** please don't upload paper files or post personal information.
+  - type: input
+    id: paper
+    attributes:
+      label: Paper
+      description: arXiv ID or link.
+      placeholder: "2310.06825 or https://arxiv.org/abs/2310.06825"
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      multiple: true
+      options:
+        - A formula doesn't render or looks wrong
+        - A figure is missing or wrong
+        - A table is missing, garbled or cut off
+        - Text is missing, repeated or out of order
+        - Raw LaTeX code shows in the text
+        - A reference, citation or link is broken
+        - Title, authors or abstract are wrong
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Where, and what did you expect?
+      description: The section or page, and what the PDF shows there. Screenshots help a lot (paste or drag them in).
+      placeholder: "In Section 3.2, Equation 5 shows a red error box. In the PDF it's a fraction."
+    validations:
+      required: true
+  - type: dropdown
+    id: view
+    attributes:
+      label: View
+      options:
+        - Reformatted (pages)
+        - Reformatted (scrolling)
+        - PDF
+        - Not sure
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings → About → Version.
+      placeholder: "1.0 (1)"
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: "iPhone 16, iOS 26.1"

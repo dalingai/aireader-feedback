@@ -1,0 +1,29 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search first: if someone already suggested it, a 👍 and a comment on how you'd use it help more than a new post.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The problem or moment in your reading where you wanted this. This matters more than the exact solution.
+      placeholder: "When I read a paper on the train I want to…"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How you imagine it working. Sketches or screenshots of other apps welcome.
+    validations:
+      required: true
+  - type: dropdown
+    id: often
+    attributes:
+      label: How often would you use it?
+      options:
+        - Every day
+        - Every week
+        - Now and then
