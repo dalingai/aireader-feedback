@@ -59,6 +59,6 @@ Please don't upload paper files. The ID is all we need, and papers belong to the
 ---
 
 <p align="center">
-  <a href="https://www.dalingai.com"><img src="assets/dalingai.svg" width="28" height="28" alt="DalingAI"></a><br>
+  <a href="https://www.dalingai.com"><img src="assets/dalingai.svg" width="32" height="32" alt="DalingAI"></a><br>
   <sub>Made by <a href="https://www.dalingai.com">DalingAI</a>. Not affiliated with or endorsed by arXiv or Cornell University.</sub>
 </p>
